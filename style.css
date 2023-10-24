@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7B68EE; /* Purple background color */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6A5ACD; /* Darker purple header background color */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.captioning-container {
+    text-align: center;
+    background-color: #8A2BE2; /* Purple container background color */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+input[type="file"] {
+    display: none;
+}
+
+button#generate-caption {
+    background-color: #6A5ACD; /* Dark purple button background color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button#generate-caption:hover {
+    background-color: #4B0082; /* Darker purple on hover */
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+img#selected-image {
+    max-width: 15%;
+    height: auto;
+}
+
+.caption-container {
+    padding: 10px;
+}
+
+p#caption {
+    font-size: 18px;
+}
+
+/* CSS for displaying the image in its original size and making it attractive */
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img#selected-image {
+    max-width: 20%;
+    height: auto;
+    border: 5px solid #fff; /* Add a white border for a clean look */
+    border-radius: 10px; /* Add rounded corners for an attractive appearance */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
+}

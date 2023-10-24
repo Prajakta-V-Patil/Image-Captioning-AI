@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Captioning AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Image Captioning AI</h1>
+    </header>
+    <main>
+        <div class="captioning-container">
+            <label for="image-input" class="image-upload-label">Select an image</label>
+            <input type="file" id="image-input" accept="image/*">
+            <button id="generate-caption" style="display: none;">Generate Caption</button>
+            <div class="image-container" style="display: none;">
+                <img id="selected-image" alt="Selected Image">
+            </div>
+            <div class="caption-container">
+                <p id="caption">Caption will appear here.</p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
